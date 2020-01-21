@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LexusWatchman</string>
+
+    <string name="btspeak">Speak</string>
+    <string name="btimage">Photo</string>
+    <string name="etname">Name</string>
+    <string name="btsubmit">Submit</string>
+</resources>

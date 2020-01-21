@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LexusWatchman</string>
+    <string name="btimage">तस्वीर</string>
+    <string name="btspeak">बोले</string>
+    <string name="btsubmit">भेजें</string>
+    <string name="etname">नाम</string>
+</resources>

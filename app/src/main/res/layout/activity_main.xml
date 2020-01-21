@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_splash"
+        android:layout_marginTop="-80dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/speakbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btspeak"
+
+            android:backgroundTint="@color/colorAccent"
+            android:layout_marginRight="50dp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="115dp" />
+        <EditText
+            android:id="@+id/nameed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/etname"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="118dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/imagebt"
+            android:layout_width="wrap_content"
+
+            android:backgroundTint="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:text="@string/btimage"
+            android:layout_marginRight="50dp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="267dp" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="159dp"
+            android:layout_height="177dp"
+            app:srcCompat="@android:drawable/alert_dark_frame"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="200dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_weight="1"
+    >
+    <Button
+        android:id="@+id/sendit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/colorAccent"
+        android:outlineAmbientShadowColor="@color/colorAccent"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/btsubmit"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="589dp" />
+</LinearLayout>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
